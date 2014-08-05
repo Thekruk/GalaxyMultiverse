@@ -1,0 +1,21 @@
+[
+    {
+        "modid": "GalaxyMultiverse",
+        "name": "Galaxy Multiverse",
+        "description": "Galacticraft extended and Mystcraft galaxy overview",
+        "version": "0.1dev1",
+        "logoFile": "",
+        "mcversion": "1.7.10",
+        "url": "test test",
+        "updateUrl": "",
+        "authorList": [
+            "Thekruk"
+          ],
+        "credits": "Pahimar LetsModReboot",
+        "parent": "",
+        "screenshots": [],
+        "dependencies": [
+            "MinecraftForge,Galacticraft,Mystcraft"
+        ]
+    }
+]
