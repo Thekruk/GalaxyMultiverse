@@ -1,6 +1,6 @@
 package com.thekruk.galaxymultiverse.creativetab;
 
-import com.thekruk.galaxymultiverse.init.ModItems;
+import com.thekruk.galaxymultiverse.init.ModBlocks;
 import com.thekruk.galaxymultiverse.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -12,7 +12,7 @@ public class CreativeTabGAMUBlocks
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.trinium;
+            return Item.getItemFromBlock(ModBlocks.triniumore);
         }
 
         @Override
