@@ -5,5 +5,6 @@ public class ItemNaquadria extends ItemGAMU
     public ItemNaquadria()
     {
         super();
+        this.setUnlocalizedName("naquadria");
     }
 }

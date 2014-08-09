@@ -5,5 +5,6 @@ public class ItemTitanium extends ItemGAMU
     public ItemTitanium()
     {
         super();
+        this.setUnlocalizedName("titanium");
     }
 }

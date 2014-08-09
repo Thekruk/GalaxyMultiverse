@@ -5,5 +5,6 @@ public class ItemOlesian extends ItemGAMU
     public ItemOlesian()
     {
         super();
+        this.setUnlocalizedName("olesian");
     }
 }

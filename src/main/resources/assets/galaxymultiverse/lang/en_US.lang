@@ -1,0 +1,13 @@
+
+
+# Item Localization
+item.galaxymultiverse:fodinaire.name=Fodinaire
+item.galaxymultiverse:naquadah.name=Naquadah
+item.galaxymultiverse:naquadria.name=Naquadria
+item.galaxymultiverse:neutronium.name=Neutronium
+item.galaxymultiverse:olesian.name=Olesian
+item.galaxymultiverse:titanium.name=Titanium
+item.galaxymultiverse:trinium.name=Trinium
+
+# Block Localization
+tile.galaxymultiverse:triniumore.name=Trinium Ore

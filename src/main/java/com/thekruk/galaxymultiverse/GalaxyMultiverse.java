@@ -1,6 +1,7 @@
 package com.thekruk.galaxymultiverse;
 
 import com.thekruk.galaxymultiverse.handler.ConfigurationHandler;
+import com.thekruk.galaxymultiverse.init.ModBlocks;
 import com.thekruk.galaxymultiverse.init.ModItems;
 import com.thekruk.galaxymultiverse.proxy.IProxy;
 import com.thekruk.galaxymultiverse.reference.Reference;
@@ -29,6 +30,7 @@ public class GalaxyMultiverse
         LogHelper.info("Pre Initialization Complete");
 
         ModItems.init();
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
