@@ -1,6 +1,6 @@
 package com.thekruk.galaxymultiverse.block;
 
-import com.thekruk.galaxymultiverse.creativetab.CreativeTabGAMUBlocks;
+import com.thekruk.galaxymultiverse.creativetab.CreativeTabGAMU;
 import com.thekruk.galaxymultiverse.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -18,7 +18,7 @@ public class BlockGAMU extends Block
     public BlockGAMU(Material material)
     {
         super(material);
-        this.setCreativeTab(CreativeTabGAMUBlocks.GAMU_TAB_BLOCKS);
+        this.setCreativeTab(CreativeTabGAMU.GAMU_TAB_BLOCKS);
     }
 
     @Override

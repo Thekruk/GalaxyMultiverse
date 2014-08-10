@@ -1,6 +1,6 @@
 package com.thekruk.galaxymultiverse.item;
 
-import com.thekruk.galaxymultiverse.creativetab.CreativeTabGAMUItems;
+import com.thekruk.galaxymultiverse.creativetab.CreativeTabGAMU;
 import com.thekruk.galaxymultiverse.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +13,7 @@ public class ItemGAMU extends Item
     public ItemGAMU()
     {
         super();
-        this.setCreativeTab(CreativeTabGAMUItems.GAMU_TAB_ITEMS);
+        this.setCreativeTab(CreativeTabGAMU.GAMU_TAB_ITEMS);
     }
 
     @Override
