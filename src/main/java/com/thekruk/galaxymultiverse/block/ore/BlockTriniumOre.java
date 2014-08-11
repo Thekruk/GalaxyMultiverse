@@ -8,7 +8,7 @@ public class BlockTriniumOre extends BlockGAMU
     {
         super();
         this.setBlockName("triniumore");
-        this.setLightLevel(10);
+        this.setLightLevel(15);
         // this.setStepSound()
         // this.set*   Mange andre ting
     }
