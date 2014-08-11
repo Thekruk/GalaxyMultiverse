@@ -23,7 +23,22 @@ public class CreativeTabGAMU
         }
     };
 
-    public static final CreativeTabs GAMU_TAB_ITEMS = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs GAMU_TAB_MACHINE = new CreativeTabs(Reference.MOD_ID)
+    {
+        @Override
+        public Item getTabIconItem()
+        {
+            return Item.getItemFromBlock(ModBlocks.triniumore);
+        }
+
+        @Override
+        public  String getTranslatedTabLabel()
+        {
+            return "Galaxy Multiverse Machine";
+        }
+    };
+
+    public static final CreativeTabs GAMU_TAB_TOOLS = new CreativeTabs(Reference.MOD_ID)
     {
         @Override
         public Item getTabIconItem()
@@ -34,7 +49,22 @@ public class CreativeTabGAMU
         @Override
         public  String getTranslatedTabLabel()
         {
-            return "Galaxy Multiverse Items";
+            return "Galaxy Multiverse Tools";
+        }
+    };
+
+    public static final CreativeTabs GAMU_TAB_MISC = new CreativeTabs(Reference.MOD_ID)
+    {
+        @Override
+        public Item getTabIconItem()
+        {
+            return ModItems.trinium;
+        }
+
+        @Override
+        public  String getTranslatedTabLabel()
+        {
+            return "Galaxy Multiverse Misc";
         }
     };
 }

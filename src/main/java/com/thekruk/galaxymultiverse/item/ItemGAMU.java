@@ -13,7 +13,7 @@ public class ItemGAMU extends Item
     public ItemGAMU()
     {
         super();
-        this.setCreativeTab(CreativeTabGAMU.GAMU_TAB_ITEMS);
+        this.setCreativeTab(CreativeTabGAMU.GAMU_TAB_MISC);
     }
 
     @Override
