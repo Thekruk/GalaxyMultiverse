@@ -11,3 +11,11 @@ item.galaxymultiverse:trinium.name=Trinium
 
 # Block Localization
 tile.galaxymultiverse:triniumore.name=Trinium Ore
+
+
+
+#Creative Tab Names
+itemGroup.galaxymultiverseBlocks=Galaxy Multiverse Blocks
+itemGroup.galaxymultiverseMachines=Galaxy Multiverse Machines
+itemGroup.galaxymultiverseTools=Galaxy Multiverse Tools
+itemGroup.galaxymultiverseMisc=Galaxy Multiverse Misc
