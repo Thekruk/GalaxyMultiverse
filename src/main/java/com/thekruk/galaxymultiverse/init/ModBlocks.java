@@ -1,7 +1,7 @@
 package com.thekruk.galaxymultiverse.init;
 
 import com.thekruk.galaxymultiverse.block.BlockGAMU;
-import com.thekruk.galaxymultiverse.block.BlockTriniumOre;
+import com.thekruk.galaxymultiverse.block.ore.BlockTriniumOre;
 import com.thekruk.galaxymultiverse.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 

@@ -1,4 +1,6 @@
-package com.thekruk.galaxymultiverse.block;
+package com.thekruk.galaxymultiverse.block.ore;
+
+import com.thekruk.galaxymultiverse.block.BlockGAMU;
 
 public class BlockTriniumOre extends BlockGAMU
 {
