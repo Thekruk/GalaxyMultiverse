@@ -22,7 +22,7 @@ group= "com.thekruk.galaxymultiverse" // http://maven.apache.org/guides/mini/gui
 archivesBaseName = "GalaxyMultiverse"
 
 minecraft {
-    version = "1.7.10-10.13.0.1197"
+    version = "1.7.10-10.13.0.1208"
     assetDir = "eclipse/assets"
 }
 
@@ -40,10 +40,10 @@ dependencies {
     compile 'codechicken:CodeChickenLib:1.7.10-1.1.1.93:dev'
     compile 'codechicken:CodeChickenCore:1.7.10-1.0.2.9:dev'
     compile 'codechicken:NotEnoughItems:1.7.10-1.0.2.15:dev'
-    compile files("libs/CoFHLib.jar")
-    compile files("libs/CoFHCore.jar")
-    compile files("libs/ThermalFoundation.jar")
-    compile files("libs/Railcraft.zip")
+    //compile files("libs/CoFHLib.jar")
+    //compile files("libs/CoFHCore.jar")
+    //compile files("libs/ThermalFoundation.jar")
+    //compile files("libs/Railcraft.zip")
     //compile files("lib/ThermalExpansion.jar")
 
     // for more info...
