@@ -14,8 +14,26 @@ tile.galaxymultiverse:triniumore.name=Trinium Ore
 
 
 
-#Creative Tab Names
+# Creative Tab Names
 itemGroup.galaxymultiverseBlocks=Galaxy Multiverse Blocks
 itemGroup.galaxymultiverseMachines=Galaxy Multiverse Machines
 itemGroup.galaxymultiverseTools=Galaxy Multiverse Tools
 itemGroup.galaxymultiverseMisc=Galaxy Multiverse Misc
+
+# Planets, Moons, SolarSystems.
+gui.choosePlanet.desc.medius=Full of Life#Habitable#Gravity: 100%
+
+solarsystem.omnis=Omnis
+star.omnis=Omnis
+
+planet.furor=Furor
+planet.infervesco=Infervesco
+planet.siccus=Siccus
+planet.medius=Medius
+moon.fultus=Fultus
+planet.frigus=Frigus
+planet.glacialis=Glacialis
+planet.orbis=Orbis
+planet.ignotus=Ignotus
+
+

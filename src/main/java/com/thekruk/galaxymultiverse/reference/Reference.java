@@ -11,7 +11,7 @@ public class Reference
 
     public static final String ASSET_PREFIX  = "assets.galaxymultiverse";
 
-    public static final String CONFIG_CATEGORY_DIMENSIONS = "dimensions";
+    public static final String CONFIG_CATEGORY_DIMENSIONS = "Dimensions";
     public static final String CONFIG_CATEGORY_ENTITIES = "entities";
     public static final String CONFIG_CATEGORY_SCHEMATIC = "schematic";
     public static final String CONFIG_CATEGORY_GENERAL = "general";

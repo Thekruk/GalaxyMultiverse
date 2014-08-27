@@ -1,4 +1,4 @@
-package com.thekruk.galaxymultiverse.solsystem.omnis.medius;
+package com.thekruk.galaxymultiverse.solsystem.omnis.furor;
 
 import com.thekruk.galaxymultiverse.GalaxyMultiverse;
 import micdoodle8.mods.galacticraft.api.galaxies.CelestialBody;
@@ -18,11 +18,11 @@ import net.minecraftforge.client.IRenderHandler;
 
 import java.util.Random;
 
-public class MediusWorldProvider extends WorldProviderSpace implements IExitHeight, ISolarLevel, ITeleportType
-{
+public class FurorWorldProvider extends WorldProviderSpace implements IExitHeight, ISolarLevel, ITeleportType {
+
     @Override
     public boolean canSpaceshipTierPass(int tier) {
-        return tier >= 1;
+        return tier >= 3;
     }
 
     @Override
@@ -46,7 +46,7 @@ public class MediusWorldProvider extends WorldProviderSpace implements IExitHeig
     //The moon is 7.0, 0 is none, lower numbers mean more
     @Override
     public double getMeteorFrequency() {
-        return 0.0;
+        return 4.0;
     }
 
     @Override
@@ -56,7 +56,7 @@ public class MediusWorldProvider extends WorldProviderSpace implements IExitHeig
 
     @Override
     public float getThermalLevelModifier() {
-        return 0;
+        return 7;
     }
 
     @Override
@@ -72,12 +72,12 @@ public class MediusWorldProvider extends WorldProviderSpace implements IExitHeig
     @Override
     public CelestialBody getCelestialBody()
     {
-        return GalaxyMultiverse.planetMedius;
+        return GalaxyMultiverse.planetFuror;
     }
 
     @Override
     public Class<? extends IChunkProvider> getChunkProviderClass() {
-        return MediusChunkProvider.class;
+        return FurorChunkProvider.class;
     }
 
     @Override
@@ -97,7 +97,7 @@ public class MediusWorldProvider extends WorldProviderSpace implements IExitHeig
 
     @Override
     public Class<? extends WorldChunkManager> getWorldChunkManagerClass() {
-        return MediusWorldChunkManager.class;
+        return FurorWorldChunkManager.class;
     }
 
     @Override

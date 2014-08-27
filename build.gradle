@@ -35,11 +35,11 @@ dependencies {
     // real examples
     //compile 'com.mod-buildcraft:buildcraft:6.0.17:dev'  // adds buildcraft to the dev env
     //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
-    compile 'com.mod-buildcraft:buildcraft:6.0.17:dev'
-    compile 'codechicken:ForgeMultipart:1.7.10-1.1.0.296:dev'
-    compile 'codechicken:CodeChickenLib:1.7.10-1.1.1.93:dev'
-    compile 'codechicken:CodeChickenCore:1.7.10-1.0.2.9:dev'
-    compile 'codechicken:NotEnoughItems:1.7.10-1.0.2.15:dev'
+    //compile 'com.mod-buildcraft:buildcraft:6.0.17:dev'
+    //compile 'codechicken:ForgeMultipart:1.7.10-1.1.0.296:dev'
+    //compile 'codechicken:CodeChickenLib:1.7.10-1.1.1.93:dev'
+    //compile 'codechicken:CodeChickenCore:1.7.10-1.0.2.9:dev'
+    //compile 'codechicken:NotEnoughItems:1.7.10-1.0.2.15:dev'
     //compile files("libs/CoFHLib.jar")
     //compile files("libs/CoFHCore.jar")
     //compile files("libs/ThermalFoundation.jar")

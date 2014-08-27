@@ -120,7 +120,7 @@ public class FultusWorldProvider extends WorldProviderSpace implements IExitHeig
     @Override
     public double getYCoordinateToTeleport()
     {
-        return 800;
+        return 250;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.thekruk.galaxymultiverse.solsystem.omnis.medius;
+package com.thekruk.galaxymultiverse.solsystem.omnis.glacialis;
 
 import com.thekruk.galaxymultiverse.GalaxyMultiverse;
 import micdoodle8.mods.galacticraft.api.galaxies.CelestialBody;
@@ -18,11 +18,11 @@ import net.minecraftforge.client.IRenderHandler;
 
 import java.util.Random;
 
-public class MediusWorldProvider extends WorldProviderSpace implements IExitHeight, ISolarLevel, ITeleportType
-{
+public class GlacialisWorldProvider extends WorldProviderSpace implements IExitHeight, ISolarLevel, ITeleportType {
+
     @Override
     public boolean canSpaceshipTierPass(int tier) {
-        return tier >= 1;
+        return tier >= 3;
     }
 
     @Override
@@ -56,7 +56,7 @@ public class MediusWorldProvider extends WorldProviderSpace implements IExitHeig
 
     @Override
     public float getThermalLevelModifier() {
-        return 0;
+        return -5;
     }
 
     @Override
@@ -72,12 +72,12 @@ public class MediusWorldProvider extends WorldProviderSpace implements IExitHeig
     @Override
     public CelestialBody getCelestialBody()
     {
-        return GalaxyMultiverse.planetMedius;
+        return GalaxyMultiverse.planetGlacialis;
     }
 
     @Override
     public Class<? extends IChunkProvider> getChunkProviderClass() {
-        return MediusChunkProvider.class;
+        return GlacialisChunkProvider.class;
     }
 
     @Override
@@ -97,7 +97,7 @@ public class MediusWorldProvider extends WorldProviderSpace implements IExitHeig
 
     @Override
     public Class<? extends WorldChunkManager> getWorldChunkManagerClass() {
-        return MediusWorldChunkManager.class;
+        return GlacialisWorldChunkManager.class;
     }
 
     @Override
